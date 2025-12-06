@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Independent TV - Custom Link</title>
+  
+  <link href="https://vjs.zencdn.net/7.20.3/video-js.css" rel="stylesheet" />
+  
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #000;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+    }
+    .video-js {
+      width: 100%;
+      height: 100%;
+    }
+    .vjs-big-play-button {
+      top: 50% !important;
+      left: 50% !important;
+      transform: translate(-50%, -50%);
+    }
+  </style>
+</head>
+<body>
+
+  <video
+    id="my-player"
+    class="video-js vjs-default-skin"
+    controls
+    preload="auto"
+    autoplay
+    muted
+    data-setup='{"fluid": true}'
+  >
+    <source src="https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-iraq/e38c44b1b43474e1c39cb5b90203691e/index.m3u8" type="application/x-mpegURL">
+
+    <p class="vjs-no-js">
+      To view this video please enable JavaScript, and consider upgrading to a
+      web browser that <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+    </p>
+  </video>
+
+  <script src="https://vjs.zencdn.net/7.20.3/video.min.js"></script>
+
+</body>
+</html>
+ </script>
+
+</body>
+</html>
