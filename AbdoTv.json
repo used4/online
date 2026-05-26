@@ -1,0 +1,38 @@
+{
+  "show": true,
+  "title": "اهلا بك في تطبيق عبدو",
+  "version": "9",
+  "headline": "اكواد التفعيل تجدها ف التلجرام",
+  "description": "",
+  "force": false,
+  "minVersion": "",
+  "credit": "hiqq3",
+  "features": [
+    "",
+    "",
+    "",
+    ""
+  ],
+  "trial": {
+    "enabled": true,
+    "text": "𝗖𝗮𝗻𝗰𝗲𝗹",
+    "minutes": 21600
+  },
+  "update": {
+    "text": "قناة التلجرام",
+    "url": "https://t.me/o10e10"
+  },
+  "colors": {
+    "bgStart": "#000000",
+    "bgEnd": "#0A0500",
+    "border": "#C4772A",
+    "accent": "#E8920A",
+    "highlight": "#D4851F",
+    "muted": "#8B4F1A",
+    "divider": "#C4772A",
+    "textPrimary": "#F5E6D0",
+    "textSecondary": "#D4A96A",
+    "buttonTrial": "#8B4F1A",
+    "buttonUpdate": "#C4772A"
+  }
+}
